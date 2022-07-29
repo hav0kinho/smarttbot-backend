@@ -4,18 +4,52 @@ Esse projeto é um sistema criado para geração aleatória de Trades para a emp
 
 ## Funcionalidades
 
-### Interfaces
+A estrutura e funcionalidade do projeto está dentro da pasta _src_, que é composta pelas pastas de: _interfaces_, _lib_ e o arquivo _App.ts_, que é onde o projeto é executado
 
-#### ITrade
+### **Interfaces**
 
-#### ITradeList
+#### **ITrade**
+
+Essa interface/tipo possui os parâmetros:
+
+- negotiation_id
+  - **Number**
+  - Informa o ID do trade
+- negotiation_asset
+  - **String**
+  - Informa o ativo que está sendo negociado o trade
+- negotiation_date
+  - **Date**
+  - Informa a data que o trade foi negociado
+- negotiation_value
+  - **Number**
+  - Informa o valor que o trade foi negociado
+
+#### **ITradeList**
+
+- getTrades()
+  - **Retorna todos os ITrade armazenados**
+- setTrades(tradeList: ITrade[])
+  - **Seta a lista de ITrade**
+- getTradeById(id: number)
+  - **Retorna um ITrade com um ID específicico**
+- getTradesByAsset(asset: string)
+  - **Retorna uma lista de ITrade. Só são retornados os ITrade que tiverem o mesmo _negotiationAsset_ dado pelo parâmetro _asset_, ou seja, o mesmo Ativo**
+- getTradesByAboveValue(value: number, asset?: string)
+  - **Retorna uma lista de ITrade. Só são retornados os ITrade que tiverem um valor superior ao dado pelo parâmetro _value_. O usuário também pode especificar um _asset_ para ser retornado**
+- getTradesByBetweenValues(min: number, max: number, asset?: string):
+  - **Retorna uma lista de ITrade. Só são retornados os ITrade que tiverem um valor entre os dados pelos parâmetros _min_ e _max_. O usuário também pode especificar um _asset_ para ser retornado**
+- getTradesByBelowValue(value: number, asset?: string)
+  - **Retorna uma lista de ITrade. Só são retornados os ITrade que tiverem um valor menor ao dado pelo parâmetro _value_. O usuário também pode especificar um _asset_ para ser retornado**
+- getNewestTrade(asset?: string)
+  - **Retorna o último ITrade negociado. O usuário também pode especificar um _asset_ para ser retornado**
 
 ### Scripts
 
-#### tradeGenerator
+#### **tradeGenerator**
 
-#### TradeListFactory
+#### **TradeListFactory**
 
-##### Métodos
+##### **Métodos**
 
-#### App
+#### **App**
