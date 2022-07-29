@@ -61,3 +61,10 @@ Uma Factory criada para criar objetos do tipo ITradeList. O seu "construtor" nec
 #### **App**
 
 Arquivo que será executado o projeto. Aqui você pode "Brincar" com as funcionalidades. Na linha 9 e 11 você pode ver algumas constantes. Em _assets_ você pode alterar os ativos que serão gerados nos trades e em _numberOfGeneratedTrades_ a quantidade de Trades.
+
+#### **Documentação Inata**
+
+Foi feito também nesse projeto algumas documentações nos próprios arquivos.
+
+![backend](https://user-images.githubusercontent.com/68474584/181830961-6ff3e2a5-72be-44af-a786-762867c16ab7.gif)
+
