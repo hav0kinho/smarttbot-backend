@@ -2,11 +2,11 @@
 
 Esse projeto é um sistema criado para geração aleatória de Trades para a empresa SmarttBot
 
-## Funcionalidades
+## **⚙️ Funcionalidades ⚙️**
 
 A estrutura e funcionalidade do projeto está dentro da pasta _src_, que é composta pelas pastas de: _interfaces_, _lib_ e o arquivo _App.ts_, que é onde o projeto é executado
 
-### **Interfaces**
+### **💻 Interfaces 💻**
 
 #### **ITrade**
 
@@ -44,7 +44,7 @@ Essa interface/tipo possui os parâmetros:
 - getNewestTrade(asset?: string)
   - **Retorna o último ITrade negociado. O usuário também pode especificar um _asset_ para ser retornado**
 
-### Scripts
+### **📝 Scripts 📝**
 
 #### **tradeGenerator**
 
