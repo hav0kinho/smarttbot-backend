@@ -48,8 +48,14 @@ Essa interface/tipo possui os parâmetros:
 
 #### **tradeGenerator**
 
+Parâmetros: _assets_ / _numberTrades_
+Essa função é responsavel por gerar uma lista de ITrade que aleatória, com base nos ativos passados como parâmetros, sendo eles aleatórios para cada trade, e valores variados entre 1 e 100. Após ser gerada, essa lista é retornada
+
 #### **TradeListFactory**
 
-##### **Métodos**
+Parâmetros: _tradeList_
+Uma Factory criada para criar objetos do tipo ITradeList. O seu "construtor" necessita apenas de uma lista de ITrade. É retornado um objeto do tipo ITradeList que possui todos os seus métodos, sendo eles relacionados a pesquisa de trades dentro do objeto
 
 #### **App**
+
+Arquivo que será executado o projeto
