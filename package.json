@@ -5,10 +5,10 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc -p .",
-    "start": "ts-node App.ts"
+    "start": "ts-node ./src/App.ts"
   },
   "keywords": [],
-  "author": "",
+  "author": "Ruallyson Felype",
   "license": "ISC",
   "devDependencies": {
     "typescript": "^4.7.4",

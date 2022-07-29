@@ -8,6 +8,8 @@ const App = () => {
   const myTrades = tradeGenerator(["WING20", "PETR4", "VALE3", "WDOZ21"], 100);
 
   const myTradeList: ITradeList = TradeListFactory(myTrades);
+
+  console.log("Funcionando");
 };
 
 App();
