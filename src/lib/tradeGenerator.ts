@@ -1,6 +1,14 @@
 import ITrade from "../interfaces/ITrade";
 import ITradeList from "../interfaces/ITradeList";
 
+/**
+ * Uma função que "simula" negociações com trades. É gerado uma lista de ITrade contendo as informações de cada trade gerado durante
+ * a execução da função, e então essa lista é retornada para o usuário.
+ * @param {string[]} assets Lista de strings contendo todos os ativos que serão gerados aleatóriamente no trades
+ * @param {number} numberTrades Quantidade de Trades que devem ser gerados
+ * @returns {ITrade[]} Retorna uma lista de ITrade
+ */
+
 //Função que irá gerar uma lista de trades
 const tradeGenerator = (assets: string[], numberTrades: number): ITrade[] => {
   //Variaveis

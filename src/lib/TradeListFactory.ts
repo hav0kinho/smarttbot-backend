@@ -1,6 +1,12 @@
 import ITrade from "../interfaces/ITrade";
 import ITradeList from "../interfaces/ITradeList";
 
+/**
+ * Factory que gera um objeto ITradeList dado uma lista de ITrade.
+ * @param {ITrade[]} tradeList Lista de ITrade contendo todas as negociações que o usuário deseja converter para um único Objeto
+ * @returns {ITradeList} Retorna uma ITradeList contendo a lista de ITrade e metodos de busca
+ */
+
 //Factory que criará objetos ITradeList
 const TradeListFactory = (tradeList: ITrade[]): ITradeList => {
   //=-=-=-=-=-=-=-=-=-=-=-=-=-PRIVADO=-=-=-=-=-=-=-=-=-=-=-=-=-
