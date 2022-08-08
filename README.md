@@ -68,3 +68,9 @@ Foi feito também nesse projeto algumas documentações nos próprios arquivos.
 
 ![backend](https://user-images.githubusercontent.com/68474584/181830961-6ff3e2a5-72be-44af-a786-762867c16ab7.gif)
 
+## **🧪 Testes Unitários 🧪**
+Foram desenvolvidos testes unitários para essa aplicação, onde foi utilizado o Jest.
+
+Através do comoando `npm test` você pode executar esses testes.
+
+![testingBackend](https://user-images.githubusercontent.com/68474584/183336499-e9683a33-e256-4d3c-b456-b9bb202ecd27.gif)
