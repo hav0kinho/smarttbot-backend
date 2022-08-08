@@ -8,7 +8,7 @@ import ITradeList from "../interfaces/ITradeList";
  */
 
 //Factory que criará objetos ITradeList
-const TradeListFactory = (tradeList: ITrade[]): ITradeList => {
+const TradeListFactory = (tradeList: ITrade[] = []): ITradeList => {
   //=-=-=-=-=-=-=-=-=-=-=-=-=-PRIVADO=-=-=-=-=-=-=-=-=-=-=-=-=-
   let _tradeList = tradeList;
 
